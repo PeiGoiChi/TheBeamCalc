@@ -1,0 +1,58 @@
+﻿.btn {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    border: 1px solid #000;
+    margin: 0;
+    padding: 0.3em 1em;
+    text-align: center;
+    line-height: 1;
+    background: #EEE;
+    font-size: inherit;
+    cursor: pointer;
+}
+.grid {
+    overflow: hidden;
+}
+
+.has-gutter {
+    padding-right: 3px;
+}
+
+.grid__item {
+    float: left;
+}
+
+.panel-title {
+    line-height: 2;
+    color: white;
+    background-color: #0097a7;
+}
+
+.panel-content--0 {
+    border: 3px #008CBA dotted;
+}
+
+.panel-content--1 {
+    border: 1px #008CBA solid;
+}
+
+.panel-content--2 {
+    border: 1px #008CBA solid;
+}
+
+.grid__item--1on3 {
+    width: 33.333%;
+}
+
+.grid__item--1on10 {
+    width: 10%;
+}
+
+.grid__item--9on10 {
+    width: 90%;
+}
+
+.grid__item--10on10 {
+    width: 100%;
+}

@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>TheBeamCalc</title>
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/plugin-mycanvas.js"></script>
+    <script src="js/plugin-parts.js"></script>
+    <script src="js/plugin-test.js"></script>
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="css/jquery-ui.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="waku1" style="float:left; display:inline-block;"></div>
+    <div id="waku2" style="float:left;display:inline-block;"></div>
+    <div id="waku3" style="float:left;display:inline-block;">
+        <h2>Settings</h2>
+        <p>Please press the Enter key to update.</p>
+        <table style="margin:10px;">
+            <tr>
+                <td><label for="p1">wA</label><input id="p1"></td>
+                <td  style="padding: 20px;"><div id="wa"></div></td>
+            </tr>
+            <tr>
+                <td><label for="p2">AB</label><input id="p2"></td>
+                <td style="padding: 20px;"><div id="ab"></div></td>
+            </tr>
+            <tr>
+                <td><label for="p3">wA</label><input id="p3"></td>
+                <td  style="padding: 20px;"><div id="wb"></div></td>
+            </tr>
+        </table>
+        <button id="setDefault">Set default parameters</button>
+        <p>Please select a kind of beam.</p>
+        <button id="tp1"><canvas id="buhin1"></canvas></button>
+        <button id="tp2"><canvas id="buhin2"></canvas></button>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
